@@ -1,9 +1,0 @@
- 
-set pagesize 300
-column osuser format a10
-column machine format a15
-column module format a15
-column username format a15
-select SID, SERIAL#, USERNAME, OSUSER, MODULE, STATUS, MACHINE
-FROM V$SESSION
-WHERE MODULE='OBRF0301';
