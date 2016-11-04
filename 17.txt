@@ -1,0 +1,116 @@
+ACEN1000 - Parâmetros DOMACE
+ACEN2010 - Logs de Exceptions
+ACEN2000 - Gerenciar Colunas
+ACEN1050 - Grupos de Usuários
+ACEN1055 - Associar Usuário em Grupos
+ACEN0011 - Alertas
+ACEN0012 - Usuários do Alerta
+CORN1051 - Tipo de Contrato  
+CORN1000 - Parâmetros DOMCOR
+CORN1022 - Mapa de Pessoas
+CORN0023 - Lista de pontos
+CRMN1155 - Categorias Classificação Manual (Familia de produtos) 
+CRMN0030 - Tipo de Oportunidade
+CRMN1020 - Estágio de Vendas 
+CRMN2010 - Cadastro de Campos de Briefing 
+CRMN1013 - Cadastro de Cargos para Contatos 
+CRMN3600 - Briefing do Cliente (esse tem ainda as telas CRMN3601 e 3602)
+CRMN0010 – Estatísticas Slots
+CRMN0020 - Logs Atendimento 
+CRMN0013 - Estatísticas Atendimento
+CRMN2100 - Visão agrupada por Ticket/SS
+CRMN2101 - Visão detalhada por Ticket/SS
+CRMR0004 - Estatísticas de Atendimentos
+CRMR0002 - Relatório de Atendimento
+CRMN1021 - Manutenção Preventiva / Atendimento Recorrente 
+CRMN0011 - Associar tickets de atendimento para um usuário
+CRMN5200 - Cadastro de Tipos de atividades 
+CRMR1010 - Relatório de Oportunidades
+CRMR1030 - Pipeline por Estágios de Venda
+CRMN1300 - Cadastro de Tipos de Manutenção
+CRMR1020 - Relatório de Compromissos
+CRMN1030 - Cadastro de Motivos de Perda de Negócio 
+CRMN1015 - Tipos de Interação
+CRMN1010 - Lista de Concorrentes
+CRMN2082 - Tipos de Indicadores de Negócio
+CRMN1170 - Interações por Cliente
+CRMN1140 - Clientes sem interação
+CRMN1181 - Tipo de Campanha 
+CRMN1550 - Apagar Oportunidades
+CRMF3010 - Conteúdo Comercial Gerenciar - Essa tela ainda serve pra alguma coisa?
+CRMN1053 - Grupo de Objetos
+CRMN1054 - Tipos de Manutenção do Contrato
+CRMN1056 - Regras do Contrato
+CRMN1055 - Horas do Contrato  Lista de Contratos 
+CRMN1150 - Classificação Manual Nível 1
+CRMN1160 - Classificação Manual Nível 2
+FRTR1005 - Lista de Viagens
+FRTR1004 - Relatório de viagens por período Relatório
+FRTR1003 - Custos por veículos por período
+FRTR1002 - Consumo de combustível por veículo / período
+FRTN1000 - Parâmetros do Sistema de Frotas
+FRTR1001 - Lista de Veículos
+FRTN1002 - Categoria CNH 
+FRTN1016 - Marcas de Peças 
+FRTN1010 - Marcas de veículos
+FRTN1200 - Motoristas
+FRTN1014 - Seguros
+FRTN1017 - Tipo de Combustível 
+FRTN1018 - Lista de tipos de custo 
+FRTN1011 - Tipos de veículos 
+FRTN1012 - Documentos veiculares 
+FRTN1015 - Peças
+FRTN1013 - Seguradoras
+GEDN0002 - Tipo de Documentos
+GEDN0001 - Lista de Categorias
+GEDN1000 - Parâmetros
+MANN0050 - Grupos de Objetos 
+MANN0052 - Modelos de Objetos 
+MANN0051 - Tipos/Classes de Objetos  
+MANN0053 - Lista de Objetos
+MANN0055 - Cadastro de Processo
+MANN0250 - Tipos de Manutenção
+MANN0240 - Colaboradores
+MANN0241 - Solicitações de Serviço com participação do Colaborador
+MANN0231 - Edição de Solicitação
+MANN0260 - Tipos de Atividades
+MANN0280 - Setores da Manutenção
+MANN0220 - Consulta Solicitação de Serviço
+MANN1010 – Mapa de Slots
+PORF0010 - Gerenciar Tags
+PORF0363 - Lista de Categorias para artigos 
+PORF0362 - Lista de Subcategorias para artigos  
+PORF0023 - Criação de Widget 
+PORF4040 - Todos os Posts
+PORF0360 - Criação de Artigos
+PORF0005 - Lista de Artigos WIKI
+PORF4010 - Criação de Posts
+PORF3030 – Parâmetros DOMPOR
+PORF0021 - Criação Dashboard
+PORF4000 - Lista de Posts
+PORF4010 - Criação de Posts 
+PORF0022 - Lista de Widgets
+PORF3030 – Parâmetros DOMPOR
+VCMN1110 - Tipos de Negócios
+
+ 
+
+Utilizei também como parâmetro para montar a lista, evitar telas que possívelmente sofrem constante mudança, o que pode acabar gerando conflitos com outras pessoas que estejam fazendo modificações nessas telas.
+ 
+Alguns módulos acho que podem ser alterados sem problema, visto que não sofrem muitas requisições de alteração ou melhoria frequentemente, como outras telas. Como as telas de artigos, posts e dashboards do DOMPOR.
+
+Acredito que algumas telas de relatório também podem ser incluídas nessa carga de alterações.
+
+Telas de parâmetros, acredito que a única que pode ficar de fora em um primeiro momento, é do CRM.
+ 
+Agora, telas para os módulos de contratos, oportunidades, atendimento, indicadores, frotas, usuarios, ged, bpm, etc. foram bem limitadas, procurando listar telas que podem não ter a necessidade de alteração em um futuro próximo, e telas que sejam de conteúdo genérico. Vão ter casos de telas mais complexas, mas acredito que não vão ocorrer problemas maiores se o cabeçalho for modificado nelas também. 
+ 
+Talvez uma estratégia que possa ser tomada, seria seguir uma ordem de aplicação:
+- Telas de relatórios;
+- Telas de parâmetros;
+- Daqui em diante, separar pelos owners, ACE, POR, CRM, MAN, etc. Definir um grau de prioridade para poder ordenar esses grupos.
+
+Podem remover as telas que naõ acharem necessário para o momento ou adicionar alguma, caso falte. Talvez algumas menores eu tenha ignorado por fazerem parte de um módulo maior que não seria mexido por enquanto, como Oportunidades e Atendimento.
+
+
+ 
